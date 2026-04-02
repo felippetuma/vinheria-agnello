@@ -1,0 +1,60 @@
+h1 {
+    color: #111; 
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 2px; 
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif; 
+}
+
+h2 {
+    color: #5a0a1e;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic; 
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+.nav-list { 
+    border-radius: 12px;
+    background-color: #5a0a1e;
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza */
+    align-items: center;
+    padding: 12px 20px; /* espaço interno */
+    gap: 25px; /* espaço entre os itens */
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* deixa o texto com um bold*/ 
+    font-size: 16px;
+    letter-spacing: 1px; /* espaçamento entre letras */
+    transition: 0.3s;
+}
+
+/* efeito quando passar o mouse */
+.nav-list li a:hover {
+    color: #ffccd5;
+    transform: scale(1.05);
+}
+
+h3{
+    text-align: center;
+}
+
+main section p{
+    font-size: 20px;
+}
+
+#link-historia{
+      color: #111; 
+    
+    transform: scale(1.05);
+}
+    
