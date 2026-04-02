@@ -1,5 +1,10 @@
+
+body {
+background-color: #5a0a1e;
+padding: 80px;
+}
 h1 {
-    color: #111; 
+    color: white; 
     font-weight: 700;
     font-size: 72px;
     text-align: center;
@@ -9,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: #5a0a1e;
+    color: white;
     text-align: center;
     font-size: 18px;
     font-style: italic; 
@@ -17,20 +22,28 @@ h2 {
     margin-bottom: 25px;
 }
 
+h3{
+    color:#ffffff
+}
+
 
 .nav-list { 
     border-radius: 12px;
-    background-color: #5a0a1e;
+    background-color: #ffffff;
     list-style: none;
     display: flex;
     justify-content: center; /* centraliza */
     align-items: center;
-    padding: 12px 20px; /* espaço interno */
+    padding: 12px 20px; /* espaço interno */ 
     gap: 25px; /* espaço entre os itens */
+    width: 400px;
+ margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .nav-list li a {
-    color: #fff;
+    color: #5a0a1e;
     text-decoration: none;
     font-weight: bold; /* deixa o texto com um bold*/ 
     font-size: 16px;
@@ -49,12 +62,50 @@ h3{
 }
 
 main section p{
+     margin-left: auto;
+    margin-right: auto;
     font-size: 20px;
+    max-width: 600px; /*quebra de linha*/ 
+    line-height: 1.6; /* espaçamento entre as linhas do texto*/
+    text-align: justify;    /* Alinha as bordas esquerda e direita */
+    font-family: sans-serif; /* Uma fonte limpa e moderna */
+    color: white;          
+   
 }
 
 #link-historia{
-      color: #111; 
-    
-    transform: scale(1.05);
+   color:  white;
+
 }
+h4{
+    text-align: center;
+    color: white;
+}
+.foto-loja{
+    justify-content: center;
+    display: flex;
     
+}
+
+ul {
+    display: block;           /* Remove o flex (que coloca lado a lado) */
+    list-style-type: disc;    /* Garante que as bolinhas apareçam */
+    padding-left: 40px;       /* Espaço necessário para as bolinhas não sumirem à esquerda */
+    margin: 20px 0;           /* Espaçamento em cima e embaixo da lista */
+   
+
+}
+
+li {
+    color: white;             
+    font-size: 14px;
+    text-align: left;         /* Listas com bolinhas ficam melhores alinhadas à esquerda */
+    margin-bottom: 10px;      /* Espaçamento entre um item e outro */
+    display: list-item;       /* Força o comportamento padrão de item de lista */
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
