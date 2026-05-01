@@ -44,6 +44,7 @@ Vinheria-Agnello
  ┣ 📂js
  ┃ ┗ 📜script.js
  ┣ 📂css
+ ┃ ┣ 📜efeitos.css
  ┃ ┗ 📜style.css
  ┗ 📂pages
  ┃ ┣ 📜contato.html
